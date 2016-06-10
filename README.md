@@ -5,7 +5,3 @@ Poragram uses
 * Ruby on Rails
 * Ruby
 * Heroku
-
-
-
-dsfjldhsfjk dfhs jk
