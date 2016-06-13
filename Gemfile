@@ -45,3 +45,26 @@ group :development do
   gem 'spring'
 end
 
+
+
+group :development, :test do
+#   gem 'rspec'
+  gem 'rspec-rails', '~> 3.0.0.0'
+end
+# group :development, :test do
+#   gem 'rspec-rails',      ">= 2.0.0.beta"
+# end
+
+gem 'devise'
+gem 'activeadmin', github: 'gregbell/active_admin'
+
+group :development, :test do
+
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.1'
+end
+
+
+group :production do
+    gem 'pg'
+    gem 'rails_12factor'
+end

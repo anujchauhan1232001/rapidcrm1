@@ -9,3 +9,18 @@
 
 
 
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+
+50.times do|i|
+    Lead.create!(name: "Jordan Hudgens #{i}", company: "ABC Company", location: "Lubbock", phone: "2233")
+end
+
+50.times do|i|
+    Lead.create!(name: "Tiffany Ledford #{i}", company: "ABC Company", location: "Midland", phone: "2233")
+end
+
+50.times do|i|
+    Lead.create!(name: "Chase Baker #{i}", company: "XYZ Company", location: "Denver", phone: "2233")
+end
+
+
